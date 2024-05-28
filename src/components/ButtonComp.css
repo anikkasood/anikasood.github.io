@@ -1,0 +1,40 @@
+.button-comp {
+    background-color: #03344464;
+    border: none;
+    color: rgb(255, 255, 255);
+    /* padding: 0px 15px 0px 15px; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin-bottom: 7px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition-duration: 0.4s;
+}
+#a{
+	text-decoration: none;
+}
+.button-comp:hover {
+    background-color: #0f7395;
+}
+
+.button-comp:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+h6{
+    font-family: 'Albert Sans', sans-serif;
+    font-weight: 600; /* Bold for headings */
+    font-size: 15px;
+    padding: 0px;
+    align-self: center;
+    margin: 10px;
+  }

@@ -1,0 +1,190 @@
+.App {
+  text-align: center;
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+  justify-content: center;
+}
+body{
+  background-color: hsl(23, 15%, 11%);
+}
+
+.navBar{
+  display: flex; 
+  justify-content: right;
+  margin: 0px;
+  padding-right: 0.3%;
+  padding-bottom: -30%;
+  padding-top: 0.4%;
+  margin-bottom: 0%;
+  /* background-color: #3f869f5d; */
+  background-color: black;
+  position: -webkit-sticky;
+  /* gap: 10px; */
+  top:0px;
+  
+}
+
+
+.menu-item{
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(220, 220, 253);
+  border-radius: 10px;
+}
+
+.myPicture{
+  width: 20%;
+  padding-top: 2%;
+  /* border-radius: 50%; */
+
+}
+
+.start-blurb{
+  /* background-color: rgba(161, 216, 255, 0.55); */
+  margin-top: -11%;
+  margin-bottom: 0px;
+  padding: 0%;
+  padding-top: 14%;
+  padding-bottom: 6%;
+  color: white;
+  
+}
+
+
+.wrapper{
+  height: 100vh; 
+  overflow-y: auto; /*scroll in wrapper, not the body*/
+  overflow-x: hidden;
+  perspective: 10px;
+}
+
+header{
+  position: relative; 
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;  
+  align-items: center;
+  margin:0px;
+  height: 5%; /*move background to back */
+  transform-style: preserve-3d;
+  z-index: -1;
+}
+.background2{
+  padding-top: 147%;
+  width:100%;
+  position: absolute;
+}
+.background3{
+  padding-top: 259%;
+  width:100%;
+  position: absolute;
+}
+.background4{
+  padding-top: 370%;
+  width:100%;
+  position: absolute;
+}
+
+.background5{
+  padding-top: 470%;
+  width:100%;
+  position: absolute;
+}
+.background6{
+  padding-top: 570%;
+  width:100%;
+  position: absolute;
+}
+.background7{
+  padding-top: 670%;
+  width:100%;
+  position: absolute;
+}
+.background8{
+  padding-top: 770%;
+  width:100%;
+  position: absolute;
+}
+.background9{
+  padding-top: 870%;
+  width:100%;
+  position: absolute;
+}
+.background10{
+  padding-top: 870%;
+  width:100%;
+  position: absolute;
+}
+.background11{
+  padding-top: 970%;
+  width:100%;
+  position: absolute;
+}
+.background12{
+  padding-top: 1070%;
+  width:100%;
+  position: absolute;
+}
+.background{
+  transform: translateZ(-10px);
+}
+.foreground{
+  transform: translateZ(-10px) scale(1.4);
+}
+.background{
+  position: absolute;
+  width: 200%;
+  margin:0%;
+  padding:0%; 
+  z-index: -1;
+  object-fit: cover;
+}
+
+.foreground{
+  position: absolute;
+  height: 100%;
+  width: 120%;
+  margin-left: -10%;
+  margin-top:-7%;
+  padding:0%; 
+  z-index: -1;
+  object-fit: cover;
+}
+
+#footer{
+  position:relative;
+  bottom: 0px;
+}
+
+
+.sideBySide{
+  display: flex;  
+  position: static;
+  justify-content: center;
+  gap:0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* max-width: 100%; */
+  margin-top: 8%;
+  padding-left: -20%;
+  padding-right: -20%;
+}
+
+.logos{
+  display: flex; 
+  flex-direction: row;
+  align-items: center;
+  scale: 20%;
+  gap:300px;
+}
+
+#git{
+  scale:200%;
+  align-items: center;
+}
