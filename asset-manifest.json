@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/anikkasood/anikkasood.github.io.git/static/css/main.defe277d.css",
+    "main.js": "/anikkasood/anikkasood.github.io.git/static/js/main.2388e523.js",
+    "static/js/453.ed3810f9.chunk.js": "/anikkasood/anikkasood.github.io.git/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/anikkasood/anikkasood.github.io.git/index.html",
+    "main.defe277d.css.map": "/anikkasood/anikkasood.github.io.git/static/css/main.defe277d.css.map",
+    "main.2388e523.js.map": "/anikkasood/anikkasood.github.io.git/static/js/main.2388e523.js.map",
+    "453.ed3810f9.chunk.js.map": "/anikkasood/anikkasood.github.io.git/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.defe277d.css",
+    "static/js/main.2388e523.js"
+  ]
+}
